@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/SetNeedsNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stuff"/>
+
+    <Button
+        android:id="@+id/SetClaim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Claim technique is on" />
+
+    <Button
+        android:id="@+id/OnlyNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Only Number in Square technique is on" />
+
+    <Button
+        android:id="@+id/NakedNums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Naked Numbers technique is on" />
+
+    <Button
+        android:id="@+id/HiddenNums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hidden Numbers technique is on" />
+
+    <Button
+        android:id="@+id/XWing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="XWing technique is on" />
+
+    <Button
+        android:id="@+id/ColorChaining"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Chaining technique is on"/>
+
+    <Button
+        android:id="@+id/YWing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Chaining technique is on"/>
+
+    <Button
+        android:id="@+id/XCycle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="XCycle technique is on"/>
+
+</LinearLayout>

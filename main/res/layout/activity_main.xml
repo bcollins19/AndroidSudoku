@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<Button android:id="@+id/ResumeGame"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Resume Game"
+		android:layout_marginTop="15dip"/>
+	<Button android:id="@+id/NewGame"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="New Game"
+		android:layout_marginTop="15dip"/>
+	<Button android:id="@+id/InputGame"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Input Puzzle"
+		android:layout_marginTop="15dip"/>
+	<Button android:id="@+id/TechniquesDescriptions"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Toggle Techniques"
+		android:layout_marginTop="15dip"/>
+</LinearLayout>

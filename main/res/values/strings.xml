@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku Mentor</string>
+    <string name="hello_world">Hello world! Wow</string>
+    <string name="action_settings">Settings</string>
+    <string name="sudoku">Here is my sudoku table</string>
+    <string name="needsNumberButton">Set Needs Number technique is on</string>
+    <string name="CannotSolveSudoku">None of the techniques known by this app can help solve the Sudoku.</string>
+
+</resources>
