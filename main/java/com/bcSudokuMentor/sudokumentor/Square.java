@@ -66,6 +66,7 @@ class Square {
     // function: isPossible
     // input: an integer
     // returns true if that number is a possibility for the square
+    // NOTICE: even if the square is solved with the input integer, it returns false
     public boolean isPossible(int n) {
         if (this.isSolved()) {
             return false;

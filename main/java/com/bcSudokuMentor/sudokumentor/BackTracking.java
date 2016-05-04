@@ -72,6 +72,8 @@ public class BackTracking {
 */
     public static int[] BackTrackingHelper2(Puzzle input, Puzzle output) {
         int[] result = {0, 0};
+        // A puzzle needs at least 17 hints for it to be a valid Sudoku
+        // so fail quickly if we already know it is not valid.
         if (input.getNumberSolved() < 17) {
             result[0] = Globals.BACKTRACKINGMAXCOUNT;
             return result;
